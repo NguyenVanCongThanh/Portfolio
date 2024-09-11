@@ -1,0 +1,180 @@
+.experience {
+    background: var(--bg-color-1);
+    color: var(--text-color-1);
+    height: auto;
+}
+
+.experience .title {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.experience .container {
+    margin: 2rem 0;
+}
+
+.experience__title {
+    /* background: #a6cad9; */
+    font-size: 1.9rem;
+    border-bottom:2px solid var(--text-color-1);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.experience .main {
+    /* border: 3px solid #bc2618; */
+    padding: 1rem;
+}
+
+.main--online-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.experience .main--online-courses .card {
+    background: var(--bg-color-4);
+    color: var(--text-color-1);
+    width: calc(50% - 1rem);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    /* padding: 1rem; */
+    gap: 2rem;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.experience .main--online-courses .card__img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    /* border-radius: .7rem; */
+}
+
+.experience .main--online-courses .card__content {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1.5rem 1rem 0;
+    vertical-align: top;
+}
+
+.experience .card__content__name {
+    font-size: 1.6rem;
+    font-weight: 800;
+}   
+
+.experience .card__content__website {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    
+}
+
+.experience .main--online-courses .card__content__description {
+    font-size: 1rem;
+    font-weight: 200;
+    border-top: 3px solid var(--bg-color-2);
+    padding-top: 1rem;
+}
+
+.main--STEM {
+    display: flex;
+    justify-content:space-evenly;
+    /* border: 2px solid #edf2f4; */
+}
+
+.main--STEM .card{
+    width: 300px;
+    height: 350px;
+}
+
+.main--STEM .card__content {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.main--STEM .card__img {
+    width: 100%;
+    height: 60%;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.GDSC-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 1rem;
+}
+
+.main--GDSC .card {
+    background: var(--bg-color-4);
+    padding:0 0 1rem 2rem;
+    border-radius: .5rem;
+}
+
+.main--GDSC .card__content {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.main--online-courses a {
+    transition: .2s ease;
+}
+
+.main--online-courses a:hover {
+    transform: translateY(-10px);
+}
+
+
+.main--project .card {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background: var(--bg-color-4);
+    color: var(--text-color-1);
+    gap: 2rem;
+    border-radius: .8rem;
+    overflow: hidden;
+    transition: .2s ease;
+    border: 2px solid var(--bg-color-2);
+}
+
+.main--project .card__img {
+    width: 450px;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.main--project .card__content {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1.5rem 1rem 0;
+    vertical-align: top;
+}
+
+.main--project .card__content__name {
+    font-size: 1.6rem;
+    font-weight: 800;
+}   
+
+
+.main--project .card__content__description {
+    font-size: 1rem;
+    font-weight: 200;
+    border-top: 3px solid var(--bg-color-2);
+    padding-top: 1rem;
+}
+
+.main--project a:hover {
+    transform: translateY(-10px);
+}
