@@ -61,6 +61,7 @@
     height: 100%;
     padding: 1rem 1.5rem 1rem 0;
     vertical-align: top;
+    /* background-color: var(--main-color-1); */
 }
 
 .experience .card__content__name {
@@ -69,9 +70,11 @@
 }   
 
 .experience .card__content__website {
+    /* width: 100%; */
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: .5rem;
+    position: relative;
     
 }
 
@@ -80,6 +83,24 @@
     font-weight: 200;
     border-top: 3px solid var(--bg-color-2);
     padding-top: 1rem;
+    /* background: var(--bg-color-2); */
+}
+
+.main--online-courses .btn--view-course {
+    display: inline-block;
+    padding: .2rem .5rem;
+    background: var(--main-color-1);
+    border-radius: .2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color-1);
+    transition: .1s ease-in-out;
+    position: absolute;
+    right: 0;
+}
+
+.main--online-courses .btn:hover {
+    box-shadow: 0 0 10px var(--main-color-1);
 }
 
 .main--STEM {
@@ -98,6 +119,7 @@
     padding: 1rem;
     font-size: 1.2rem;
     font-weight: 200;
+
 }
 
 .main--STEM .card__img {
@@ -125,13 +147,6 @@
     font-weight: 700;
 }
 
-.main--online-courses a {
-    transition: .2s ease;
-}
-
-.main--online-courses a:hover {
-    transform: translateY(-10px);
-}
 
 
 .main--project .card {
@@ -175,6 +190,3 @@
     padding-top: 1rem;
 }
 
-.main--project a:hover {
-    transform: translateY(-10px);
-}
