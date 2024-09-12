@@ -85,17 +85,17 @@
 
 .timeline .card:hover {
     transform: scale(1.02);
-    box-shadow: 0 3px 12px 0 #ccc;
+    /* box-shadow: 0 3px 12px 0 #ccc; */
 }
 
 .education .card__content .card__title{
     color: var(--main-color-2);
     font-size: 1.2rem;
-    font-weight: 800;
+    font-weight: 800;   
 }
 
 .education .card__content h4 {
-    color: var(--text-color-2);
-    font-size: 1rem;
+    color: var(--bg-color-2);
+    font-size: 1rem ;
     font-weight: 400;
 }

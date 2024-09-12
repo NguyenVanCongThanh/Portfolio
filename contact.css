@@ -3,6 +3,8 @@
     color: var(--text-color-1);
     padding: 2rem 5rem 4rem 5rem;
     border-top: 2px solid var(--bg-color-2);
+    display: flex;
+    gap: 4rem;
 }
 
 .footer .title {
@@ -26,4 +28,9 @@
     color: var(--text-color-1);
     font-size: 1.5rem;
     padding-right: 1rem;
+    transition: .3s ease;
+}
+
+.footer .buttons__links i:hover {
+    scale: 1.2;
 }
