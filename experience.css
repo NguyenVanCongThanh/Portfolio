@@ -178,8 +178,11 @@
 }
 
 .main--project .card__content__name {
+    /* width: 100%; */
     font-size: 1.6rem;
     font-weight: 800;
+    position: relative;
+    /* background: var(--main-color-1); */
 }   
 
 
@@ -188,5 +191,18 @@
     font-weight: 200;
     border-top: 3px solid var(--bg-color-2);
     padding-top: 1rem;
+}
+
+.main--project .btn--project {
+    display: inline-block;
+    padding: .3rem .6rem;
+    background: var(--main-color-1);
+    border-radius: .2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color-1);
+    /* transition: .1s ease-in-out; */
+    position: absolute;
+    right: 0;
 }
 
