@@ -148,22 +148,28 @@
 .basic-info h4 {
     font-size: 1rem;
     font-weight: 300;
+    position: relative;
 }
 
 .basic-info span {
-    margin-left: 10px;
+    position: absolute;
+    /* margin-left: 10px; */
+    left: 120px;
     font-size: 1.2rem;
     font-weight: 800;
+    top: 0px;
 }
 
 .summary {
     flex: 1;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* text-align: center; */
+    padding-left: 2rem;
 }
 
-.summary p {
+.summary li {
     font-size: 1.2rem;
     font-weight: 200;
 }
